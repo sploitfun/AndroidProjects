@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Wrong Input", Toast.LENGTH_LONG).show();
         }
         float out = user_inp_num * dollarinr_xchgrate;
-        Toast.makeText(this, String.valueOf(rupee_sym)+" "+String.valueOf(out), Toast.LENGTH_LONG).show();
+        Toast.makeText(this, rupee_sym + " " + out, Toast.LENGTH_LONG).show();
         Log.i("Info", "Button Clicked!!");
     }
 
