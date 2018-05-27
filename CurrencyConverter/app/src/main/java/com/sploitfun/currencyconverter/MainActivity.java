@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    int dollarinr_xchgrate = 68;
+    float dollarinr_xchgrate = 67.73f;
     char rupee_sym = '\u20B9';
 
     public void convertToINR(View view) {
